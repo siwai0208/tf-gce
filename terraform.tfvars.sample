@@ -1,0 +1,25 @@
+# Provider
+gcp_project = "Your-GCP-Project-Name"
+region = "Your-Region"
+zone = "Your-Zone"
+
+# VPC
+subnetspub1cidr = "10.0.16.0/24"
+subnetspub2cidr = "10.0.17.0/24"
+subnetsprv1cidr = "10.0.24.0/24"
+subnetsprv2cidr = "10.0.25.0/24"
+
+# Security-Group
+sshlocation = "Your SSH Location IP"
+httplocation = "Your HTTP Location IP"
+
+# GCE-LEMP
+machine_type = "f1-micro"
+dbuser = "Your DBUser"
+dbpassword = "Your DBpassword"
+dbname = "Your DBName"
+gituser = "Your Git Username"
+gitemail = "Your Git Email"
+gitpassword = "Your Git Password"
+username = "Your Linux username"
+userpass = "Your Linux password"
